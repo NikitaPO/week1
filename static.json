@@ -11,7 +11,7 @@
     },
     "/sample/": {
       "X-Author": "nikitapopov",
-      "Content-Type": "text/plain",
+      "Content-Type": "text/plain; charset=UTF-8",
       "Access-Control-Allow-Origin": "*"
     }
   }
