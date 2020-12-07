@@ -1,28 +1,23 @@
 {
-  "headers": {
-    "/*": {
-      "X-Author": "nikitapopov",
-      "Access-Control-Allow-Origin": "*"
-    },
-    "/login/": {
-      "X-Author": "nikitapopov",
-      "Content-Type": "text/plain; charset=UTF-8",
-      "Access-Control-Allow-Origin": "*"
-    },
-    "/sample/": {
-      "X-Author": "nikitapopov",
-      "Content-Type": "text/plain; charset=UTF-8",
-      "Access-Control-Allow-Origin": "*"
-    },
-    "/promise/": {
-      "X-Author": "nikitapopov",
-      "Content-Type": "text/plain",
-      "Access-Control-Allow-Origin": "*"
-    },
-    "/fetch/": {
-      "X-Author": "nikitapopov",
-      "Content-Type": "text/html",
-      "Access-Control-Allow-Origin": "*"
-    }
-  }
+	"headers": {
+		"/*": {
+		"X-Author": "nikitapopov",
+		"Access-Control-Allow-Origin": "*"
+		},
+		"/login/": {
+		"X-Author": "nikitapopov",
+		"Access-Control-Allow-Origin": "*",
+		"Content-Type": "text/plain; charset=UTF-8"
+		},
+		"/promise/": {
+		"X-Author": "nikitapopov",
+		"Access-Control-Allow-Origin": "*",
+		"Content-Type": "text/plain"
+		},
+		"/fetch/": {
+		"X-Author": "nikitapopov",
+		"Access-Control-Allow-Origin": "*",
+		"Content-Type": "text/html"
+		}
+	}
 }
