@@ -2,7 +2,7 @@
 <button id="bt">Click me</button>
 <script defer>
   const btn = document.querySelector("#bt");
-  btn.onclick = () => {
+  btn.addEventListener("click", () => {
     const input = document.querySelector("#inp");
     const url = input.value;
     fetch(url)
@@ -11,5 +11,5 @@
         input.value = text;
       })
       .catch(() => console.log("Can't fetch"));
-  };
+  });
 </script>
