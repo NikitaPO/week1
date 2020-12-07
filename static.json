@@ -16,12 +16,12 @@
     },
     "/promise/": {
       "X-Author": "nikitapopov",
-      "Content-Type": "text/plain; charset=UTF-8",
+      "Content-Type": "text/plain",
       "Access-Control-Allow-Origin": "*"
     },
     "/fetch/": {
       "X-Author": "nikitapopov",
-      "Content-Type": "text/html; charset=UTF-8",
+      "Content-Type": "text/html",
       "Access-Control-Allow-Origin": "*"
     }
   }
